@@ -47,7 +47,7 @@ const wes = {
   name: 'Westopher Bos',
   // Method!
   sayHi: function() {
-    console.log(`Hey ${this.name}`);
+    console.log(`Hey ${this}`);
     return 'Hey Wes';
   },
   // Short hand Method
@@ -56,6 +56,7 @@ const wes = {
   },
   // Arrow function
   wisperHi: () => {
+    console.log(this);
     console.log('hii wesss im a mouse');
   }
 }
