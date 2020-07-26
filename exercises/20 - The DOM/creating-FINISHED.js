@@ -22,7 +22,7 @@ document.body.appendChild(myDiv);
 const heading = document.createElement('h2');
 heading.textContent = 'Cool Things';
 
-myDiv.insertAdjacentElement('beforebegin', heading);
+myDiv.insertAdjacentElement('afterbegin', heading);
 
 // <ul>
 // <li>One</li>

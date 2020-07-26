@@ -1,4 +1,6 @@
+/* eslint-disable*/
 // const age = 100;
+// var poop = 'farts';
 
 // function go() {
 //   const myAge = 200;
@@ -9,11 +11,10 @@
 // }
 
 // go();
-/* eslint-disable*/
 
 // function isCool(name) {
 //   if (name === 'wes') {
-//     var cool = true;
+//     let cool = true;
 //   }
 //   console.log(cool);
 //   return cool;
@@ -37,14 +38,14 @@ function go() {
 
 go();
 
-function yell() {
-  console.log(name.toUpperCase())
-}
+// function yell() {
+//   console.log(name.toUpperCase())
+// }
 
-function sayHi(name) {
+// function sayHi(name) {
 
-  yell();
-}
+//   yell();
+// }
 
 
-yell();
+// yell();
