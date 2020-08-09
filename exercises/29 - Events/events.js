@@ -37,7 +37,8 @@ window.addEventListener(
   'click',
   function(event) {
     console.log('YOU CLICKED THE WINDOW');
-    console.log(event.target);
+    console.log('target: ', event.target);
+    console.log('currentTarget', event.currentTarget);
     console.log(event.type);
     // event.stopPropagation();
     console.log(event.bubbles);
